@@ -1,0 +1,52 @@
+/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+@media (max-width: 89em) {
+  .features {
+    margin: 0 5rem;
+  }
+
+  .features__feature {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 77em) {
+  html {
+    font-size: 56.25%;
+  }
+  .nav {
+    padding: 0 4rem;
+  }
+  .header__title {
+    max-width: 110rem;
+  }
+  h1 {
+    font-size: 4.8rem;
+  }
+  .section {
+    padding: 10rem 3rem;
+  }
+  .section__header {
+    font-size: 3.6rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+  .features {
+    column-gap: 2rem;
+  }
+
+  .feature_img_div {
+    text-align: center;
+  }
+
+  .features__img {
+    width: 80%;
+  }
+
+  .features__feature {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+}
